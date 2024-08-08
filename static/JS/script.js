@@ -1,0 +1,1 @@
+document.getElementById('bttn').classList.add('active');

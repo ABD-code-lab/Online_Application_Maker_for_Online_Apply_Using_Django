@@ -1,0 +1,51 @@
+label, input {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+
+    border: 0; 
+    outline: 0;
+    font-weight: lighter;
+    padding-left: 10px;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first {
+    border-bottom: 2px solid black;
+}
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+    .no-print {
+        display: none;
+    }
+}
+
+.btn {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn button {
+    padding: 7px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>
+            Application Form
+        </title>
+        <link rel='stylesheet' href='/static/CSS/application.css' >
+    </head>
+    <body>
+        <h1>Application Form</h1>
+           <div>
+                <div class='first'>
+                    <label>Name:</label>
+                    <input type='text' value='{{name}}' readonly />
+                </div>
+                <div class='first'>
+                    <label>Father Name:</label>
+                    <input type='text' value='{{fname}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>CNIC:</label>
+                    <input type='text' value='{{cnic}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>D-O-B:</label>
+                    <input type='text' value='{{dob}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Blood group:</label>
+                    <input type='text' value='{{blood}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Gender:</label>
+                    <input type='text' value='{{gender}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Contact:</label>
+                    <input type='text' value='{{contact}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Email:</label>
+                    <input type='text' value='{{email}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Age:</label>
+                    <input type='text' value='{{age}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Temporary Address:</label>
+                    <input type='text' value='{{taddress}}' readonly/>
+                </div>
+                <div class='first'>
+                    <label>Permanent Address:</label>
+                    <input type='text' value='{{paddress}}' readonly/>
+                </div>
+
+                <div>
+                    <table border="1" cellspacing="0" id="tab" cellpadding="10" style="font-size: 20px; margin-top: 20px; width: 100%; text-align: center;">
+                        <tr>
+                            <th>Level</th>
+                            <th>Obtained Marks</th>
+                            <th>Total Marks</th>
+                            <th>Percentage</th>
+                        </tr>
+                        <tr>
+                            <td>Intermediate</td>
+                            <td>{{iomarks}}</td>
+                            <td>{{itmarks}}</td>
+                            <td>{{iper}}</td>
+                        </tr>
+                        <tr>
+                            <td>Matriculation</td>
+                            <td>{{momarks}}</td>
+                            <td>{{mtmarks}}</td>
+                            <td>{{mper}}</td>
+                        </tr>
+                    </table>
+                </div>
+           </div>
+           <div class="btn">
+               <button onclick="window.print()">Print this page</button>
+           </div>
+    </body>
+</html>
